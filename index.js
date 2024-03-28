@@ -21,5 +21,5 @@ async function fetchData() {
 btn1.addEventListener('click', fetchData)
 
 btn2.addEventListener('click', function(){
-    window.open('https://twitter.com/intent/tweet?text='+quote.innerHTML+' by --->'+author.innerHTML, 'Tweet Window', 'width=600px, height=400px')
+    window.open('https://twitter.com/intent/tweet?text='+'"'+quote.innerHTML+'"', 'Tweet Window', 'width=600px, height=400px')
 });
